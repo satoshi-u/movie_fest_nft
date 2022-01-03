@@ -1,15 +1,21 @@
-# Basic Sample Hardhat Project
+# Festical Tickets Market
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
+clone the repo with :
 ```shell
-npx hardhat accounts
+git clone https://github.com/satoshi-u/movie_fest_nft
+```
+
+do an npm install for installing project dependencies : 
+```shell
+npm install
+```
+
+To compile the contracts, simply run :
+```shell
 npx hardhat compile
-npx hardhat clean
+```
+
+To run the tests, simply run :
+```shell
 npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
 ```
