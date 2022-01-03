@@ -38,6 +38,6 @@ FestMarket -> listTicketForSale(2, 1.1) {msg.value : 0.025 eth} -> lists NFT for
 
 FestMarket -> buyTicketOnSale(1) -> buys NFT for sale @1.1 token price.
 
-FestMarket -> bfetchFestTicketsInSecondaryMarket() -> views all NFT tickets on sale.
+FestMarket -> fetchFestTicketsInSecondaryMarket() -> views all NFT tickets on secondary market.
 
 ```
