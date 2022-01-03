@@ -1,4 +1,4 @@
-# Festival Tickets Market
+# Festival Tickets
 
 clone the repo with :
 ```shell
