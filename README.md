@@ -41,3 +41,21 @@ FestMarket -> buyTicketOnSale(1) -> buys NFT for sale @1.1 token price.
 FestMarket -> fetchFestTicketsInSecondaryMarket() -> views all NFT tickets on secondary market.
 
 ```
+
+To do further... 
+```shell
+Kept storage vars public for ease of testing. To make things pvt. and refctor tests.
+
+Events capturing in tests.
+```
+
+To think further... 
+```shell
+We can't approve contract for say 'x' amount of tokens as in ERC20. In ERC1155, it is setAapprovalForAll!
+
+_lastSalePrice is updated for seller when a ticket is sold in secondary market. Bullet prrof logic ?
+
+Currently, no limit on buying NFT tickets in primary market!
+
+Can more than 1 NFT ticket be listed in secondary market by same address? (friction with _lastSalePrice rule)
+```
