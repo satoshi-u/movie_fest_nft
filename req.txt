@@ -1,0 +1,18 @@
+Create a non-fungible token that represents tickets for a festival and a fungible currency token using the chain technology of your choice (Solidity, Chaincode, Cordapp, ...)
+
+- There are maximum 1000 tickets
+- You can buy tickets from the organizer at a fixed price in the currency token
+- You can buy for and sell tickets to others, but the price can never be higher than 110% of the previous sale
+- Add a monetization option for the organizer in the secondary market sales
+
+Minimal requirements:
+- Documentation is everything, explain what happens and how to run/deploy
+- A basic script or test case to cover the main flow. 
+
+Delivery -
+- Share the github link of your project. 
+
+
+erc20 also in erc1155
+
+can one buy more than one nft to same address
